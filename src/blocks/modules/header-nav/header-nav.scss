@@ -1,0 +1,31 @@
+.header-nav {
+  // height: 105px;
+  background-color: $header-nav-bg-color;
+}
+
+.header-nav li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.header-nav .liitem a {
+  text-decoration: none;
+  color: $header-nav-text-color;
+  font-family: $adineue-PRO-Cyr;
+  border-radius: 13px;
+  font-size: 16px;
+  background: $header-nav-bg-color;
+  box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.15),
+    -4px -8px 20px -2px rgba(125, 125, 125, 0.15);
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.heder-icons {
+  margin-top: 15px;
+}

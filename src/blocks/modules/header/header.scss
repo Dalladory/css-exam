@@ -1,0 +1,53 @@
+.banner1 {
+  background: url("../../../img/banner1.png") center no-repeat;
+  width: 100%;
+  height: 930px;
+  background-size: cover;
+}
+.header-wrapper-height {
+  height: 930px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.vector-block {
+  display: inline-block;
+  background: url("../../../img/vektor1.png") no-repeat;
+  border-radius: 12px;
+  width: 304px;
+  height: 138px;
+  background-size: cover;
+  margin-bottom: 50px;
+  .primary-btn {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    margin-top: 51px;
+    padding: 18px 36px;
+    margin-left: 38px;
+    font-family: $adineue-PRO-Cyr;
+    color: $banner1-btn-text-color;
+
+    font-size: 19px;
+    text-decoration: none;
+    background-color: $banner1-btn-bg-color;
+    border-radius: 12px;
+    box-shadow: inset 5px -6px 9px rgba(0, 0, 0, 0.23),
+      inset -7px 6px 9px rgba(0, 0, 0, 0.25);
+  }
+}
+
+// .banner1 a {
+//   display: flex;
+//   justify-content: center;
+//   font-size: 19px;
+//   color: $banner1-btn-text-color;
+//   text-decoration: none;
+//   background-color: $banner1-btn-bg-color;
+//   padding: 18px 36px 18px 36px;
+//   border-radius: 12px;
+//   box-shadow: inset 5px -6px 9px rgba(0, 0, 0, 0.23),
+//     inset -7px 6px 9px rgba(0, 0, 0, 0.25);
+//   margin-top: 51px;
+//   margin-left: 38px;
+// }

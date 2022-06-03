@@ -1,0 +1,119 @@
+.about-us {
+  background-color: $about-us-bg-color;
+}
+.about-us-text {
+  color: $about-us-text-color;
+  font-family: $adineue-PRO-Cyr;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 70px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  box-shadow: -10px -9px 19px rgba(184, 184, 184, 0.06),
+    6px 8px 10px 1px rgba(0, 0, 0, 0.09), inset 6px 6px 8px rgba(0, 0, 0, 0.08),
+    inset -7px -8px 22px rgba(185, 185, 185, 0.04);
+  h1 {
+    font-size: 48px;
+    font-family: $adineue-PRO-Cyr-Bold;
+  }
+}
+.about-us-img {
+  height: 600px;
+  background: url("../../../img/about-us-img.png") center;
+  background-size: cover;
+}
+
+.third-image-bg {
+  background: url("../../../img/about-us-img2.png") no-repeat;
+  width: 770px;
+  // height: 490px;
+  background-size: cover;
+  margin-left: 113px;
+  border-radius: 13px;
+  &:first-child {
+    padding-right: 0;
+  }
+}
+.master-description {
+  display: flex;
+  justify-content: start;
+  width: 853px;
+  height: 412px;
+  margin: 290px 0px 0px -13px;
+  box-shadow: 2px 4px 8px 1px rgb(0 0 0 / 15%),
+    -20px -8px 20px -2px rgb(125 125 125 / 15%);
+  border-radius: 13px;
+  background-color: $about-us-bg-color;
+}
+.image-block {
+  width: 500px;
+}
+.description-block {
+  padding-top: 11px;
+  padding-right: 41px;
+  font-family: $adineue-PRO-Cyr;
+  h3 {
+    // font-family: $font-Pro-cyr-light;
+    font-size: 24px;
+    color: $about-us-h-color;
+  }
+
+  p {
+    // font-family: $font-Pro-cyr-light;
+    font-size: 17px;
+    color: $about-us-text-color;
+  }
+}
+.button-block {
+  margin-top: 0px;
+  background: url("../../../img/vektor1.png") no-repeat 7% 0%;
+  background-size: contain;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn-order {
+    padding: 12px 4px;
+    margin-right: 40px;
+    margin-left: 20px;
+    border: 3px solid $about-us-text-color;
+    color: #e4edff;
+    border-radius: 28px;
+    background-color: $about-us-bg-color;
+    opacity: 0.9;
+    // font-family: $font-Pro-cyr-bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+
+  .btn-last-works {
+    padding: 17px 18px;
+    // font-family: $font-Pro-cyr-bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.085em;
+    background: rgba(153, 153, 153, 0.28);
+    box-shadow: inset 3px 2px 3px rgba(247, 247, 247, 0.25),
+      inset 4px -1px 7px 7px rgba(223, 223, 223, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 33px;
+    color: #e4edff;
+    border: none;
+    text-decoration: none;
+  }
+}
+.fourth-image-bg {
+  background: url("../../../img/about-us-img3.png") no-repeat;
+  width: 623px;
+  height: 702px;
+}
+
+.girl-to-set {
+  position: relative;
+  bottom: 615px;
+  right: 315px;
+}

@@ -1,0 +1,42 @@
+.contacts {
+  text-align: center;
+  background-color: $contacts-bg-color;
+}
+.contact-img {
+  width: 249px;
+  height: 425px;
+  border-radius: 13px;
+}
+.contact-img-left {
+  display: flex;
+  border-radius: 10px;
+}
+.contact-header {
+  color: $contacts-text-color;
+  font-family: $adineue-PRO-Cyr-Bold;
+  font-size: 48px;
+}
+.contact-text {
+  font-size: 24px;
+  color: $contacts-text-color;
+  font-family: $adineue-PRO-Cyr;
+  display: flex;
+  justify-content: center;
+}
+.contact-subtext {
+  color: #c6c6c6;
+  font-size: 14px;
+  font-family: $adineue-PRO-Cyr;
+}
+.contact-block {
+  margin-top: 50px;
+  a {
+    text-decoration: none;
+  }
+  .social-icon {
+    margin: 25px;
+  }
+  .contact-icon {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "adineue PRO Cyr";
+  src: url("../../fonts/adineue\ PRO\ Cyr.eot");
+  src: url("../../fonts/adineue\ PRO\ Cyr.eot?#iefix")
+      format("embedded-opentype"),
+    //  url('../fonts/italic/roboto-light-webfont.woff2') format('woff2'),
+    url("../../fonts/adineue\ PRO\ Cyr.woff") format("woff"),
+    url("../../fonts/adineue\ PRO\ Cyr.ttf") format("truetype");
+  //  url('../fonts/italic/roboto-light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$adineue-PRO-Cyr: adineue PRO Cyr;
+
+@font-face {
+  font-family: "adineue PRO Cyr Bold";
+  src: url("../../fonts/adineue\ PRO\ Cyr\ Bold.eot");
+  src: url("../../fonts/adineue\ PRO\ Cyr\ Bold.eot?#iefix")
+      format("embedded-opentype"),
+    //  url('../fonts/italic/roboto-light-webfont.woff2') format('woff2'),
+    url("../../fonts/adineue\ PRO\ Cyr\ Bold.woff") format("woff"),
+    url("../../fonts/adineue\ PRO\ Cyr\ Bold.ttf") format("truetype");
+  //  url('../fonts/italic/roboto-light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$adineue-PRO-Cyr-Bold: adineue PRO Cyr Bold;
